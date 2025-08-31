@@ -15,6 +15,7 @@
    [:h1 "Outer counter"]
    [:pre "Count: " (pr-str @!counter)]
    [:iframe {:src "https://adamrenklint.com/outer-sandbox-test"
+             :sandbox "allow-scripts"
              :style {:height 400 :width 500
                      :border "1px solid lightgrey"}}]])
 
